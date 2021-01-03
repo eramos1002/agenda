@@ -1,0 +1,30 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Ejercicio Agenda",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --require babel-core/register --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eramos1002/agenda.git"
+  },
+  "keywords": [
+    "agenda"
+  ],
+  "author": "Ericka Ramos León",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eramos1002/agenda/issues"
+  },
+  "homepage": "https://github.com/eramos1002/agenda#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
