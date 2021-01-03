@@ -1,7 +1,3 @@
-const genId() {
-    return null;
-}
-
 export default class Agenda {
 
     testMethod() {
